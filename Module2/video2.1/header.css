@@ -1,7 +1,17 @@
-.nav{
-  background-color: black; padding: 20px; display: flex; color: white; gap: 30px; justify-content: space-between;
+:root {
+  --background-color: #0c0418;
+  --font-primary-color: #feffff;
+  --primary-color: #ba0bf9;
 }
+
 .header-container{
   height: 100vh ;
-  background: #000;
+  background-color: var(--background-color);
+}
+.nav{
+   padding: 20px; 
+   display: flex;
+    color: var(--font-primary-color); 
+    gap: 30px; 
+    justify-content: space-between;
 }
