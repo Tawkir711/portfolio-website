@@ -1,6 +1,9 @@
 .header-container {
   height: 100vh;
   background-color: var(--background-color);
+  background-image: url('/images/Gradient.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .nav {
   padding: 20px;
@@ -9,4 +12,12 @@
   gap: 30px;
   justify-content: space-between;
   font-size: 36px;
+}
+
+#right-menu-id {
+  width: 175px;
+  text-align: right;
+}
+.banner{
+  color: white;
 }
