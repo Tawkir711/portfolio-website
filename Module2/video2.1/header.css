@@ -87,7 +87,9 @@
   .banner-profile-container{
     flex-direction: column;
   }
-  
+  #banner-image{
+    width: 100%;
+  }
   .complete-project-container {
     flex-direction: column;
     padding: 0px 60px;
