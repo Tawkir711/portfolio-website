@@ -84,7 +84,20 @@
   .nav {
     font-size: 24px;
   }
+  .banner-profile-container{
+    flex-direction: column;
+  }
+  
   .complete-project-container {
     flex-direction: column;
+    padding: 0px 60px;
+  }
+  .banner-title h1{
+    font-size: 20px;
+  }
+  .banner-desc{
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: normal;
   }
 }
