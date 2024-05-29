@@ -1,0 +1,41 @@
+.project-container {
+  height: 100%;
+  margin-top: 40px;
+    border-top: 1px solid var(--font-primary-color);
+}
+
+.project-container h1 {
+  padding: 15px 0px;
+  text-transform: uppercase;
+}
+.projects {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+.project img {
+  width: 100%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.btn button {
+  padding: 12px 70px;
+  text-transform: uppercase;
+  background-color: var(--background-color);
+  margin: 25px 0px;
+  border: 1px solid var(--font-primary-color);
+  font-weight: bolder;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+  .projects {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
