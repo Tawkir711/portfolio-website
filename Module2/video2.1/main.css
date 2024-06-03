@@ -120,10 +120,13 @@
 
 .left-side-card-top{
   width: 65%;
-  background-image: linear-gradient(to bottom right, #5d4af12f, #b90bf95c);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 .left-side-single-card{
   display: flex;
+  background-image: linear-gradient(to bottom right, #5d4af12f, #b90bf95c);
 }
 .right-side{
   width: 35%;
@@ -157,5 +160,21 @@
   }
   .h1p p{
     font-size: 16px;
+  }
+  .testimonials-cards{
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .left-side-single-card {
+    flex-direction: column;
+  }
+  .left-side-single-card img{
+    width: 100%;
+  }
+  .left-side-card-top, .right-side {
+    width: 100%;
+  }
+  .ppp{
+    padding-bottom: 15px;
   }
 }
